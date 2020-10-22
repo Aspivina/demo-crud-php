@@ -1,0 +1,14 @@
+.root{
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100vh !important;
+    justify-content: space-between !important;
+
+}
+
+.spaced-columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
