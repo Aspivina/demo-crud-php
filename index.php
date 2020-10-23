@@ -5,7 +5,7 @@
 <div class="div container">
    <div class="row spaced-columns">
       <div class="col-md-6">
-         <img src="assets/welcome.jpg" class="img-fluid" />
+         <img src="assets/welcome.png" class="img-fluid" />
       </div>
       <div class="col-md-4">
          <div class="card card-body">
@@ -47,9 +47,9 @@
                <hr>
                <p>Ya tienes una cuenta? <a class="text-orange-50" text-center href="?login=true">Login</a></p>
             <?php }else{ ?>
-               <h3><i class="fas fa-hand-spock"></i> Bienvenido</h3>
-               <p>He trabajando arduamente para hacer mi primer ABM de usuarios autogestionado con PHP 5.5 y Bootstrap.</p>
-               <p><a href="?signin=true" class="text-orange-50" text-center>Comencemos!</a></p>
+               <h3><i class="fas fa-user-astronaut"></i> Bienvenido</h3>
+               <p>He trabajando arduamente para hacer mi primer ABM de usuarios autogestionado con PHP 5.5, MySQLi, y Bootstrap.</p>
+               <h6><a href="?signin=true" class="text-orange-50" text-center>Comencemos!</a></h6>
             <?php } ?>
          </div>
 

@@ -1,14 +1,17 @@
-.root{
-    display: flex !important;
-    flex-direction: column !important;
-    height: 100vh !important;
-    justify-content: space-between !important;
-
+.myBlock {
+    height: 100% ;
+    padding: 20px;
 }
-
-.spaced-columns{
+.spaced-columns {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
+}
+.myTitle{
+    text-transform: uppercase !important;
+    letter-spacing: 3px !important;
+}
+.oculto{
+    display: none !important;
 }
